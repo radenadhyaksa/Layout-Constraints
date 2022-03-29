@@ -7,12 +7,15 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment(-1, -1),
+    return Center(
       child: Container(
-        color: Colors.red,
-        width: 100,
-        height: 100,
+        color: Colors.blueAccent,
+        padding: const EdgeInsets.all(4.0),
+        child: Container(
+          color: Colors.green,
+          width: 100,
+          height: 100,
+        ),
       ),
     );
   }
