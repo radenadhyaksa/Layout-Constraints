@@ -7,7 +7,8 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Align(
+      alignment: Alignment(-1, -1),
       child: Container(
         color: Colors.red,
         width: 100,
